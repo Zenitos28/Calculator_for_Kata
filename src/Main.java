@@ -1,5 +1,5 @@
 public class Main {
-    static String output= "";
+    static String output= " Проверка работы репозитория";
     static int result;
     public static String calc(String input){
         String exception = "throws Exception"; // выдача исключения.
@@ -8,7 +8,7 @@ public class Main {
         int a;
         int b;
         if (array1.length != 3){
-            return exception+ " //т.к. формат математической операции не удовлетворяет заданию - две переменные и один оператор (+, -, /, *)";
+            return exception+ " // т.к. формат математической операции не удовлетворяет заданию - две переменные и один оператор (+, -, /, *)";
         }  // проверка на количество переменных
             boolean rimskie = false;
         boolean rimskie1 = false;
